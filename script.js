@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Constante con la tasa mensual C/IVA exacta proporcionada
-    const TASA_MENSUAL = 0.02269226; // 2.269226%
+    const TASA_MENSUAL = 0.02213726; // 2.213726%
     
     // Plazos predefinidos para calcular por pago mensual
     const PLAZOS_PREDEFINIDOS = [12, 24, 36, 48, 60];
@@ -210,4 +210,5 @@ document.addEventListener('DOMContentLoaded', function() {
     montoInput.value = '50000';
     plazoInput.value = '24';
     calcular();
+
 });
